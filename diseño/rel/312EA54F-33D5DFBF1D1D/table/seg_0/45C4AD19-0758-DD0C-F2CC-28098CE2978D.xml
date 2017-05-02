@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="45C4AD19-0758-DD0C-F2CC-28098CE2978D" directorySegmentName="seg_0" name="ORIGEN">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>43971C5E-7E64-B215-E0CD-AA63AA41DD86</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pkName>ORIGEN PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idOri" id="AEA6B786-F25A-C953-4274-9222563C451C">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>043A52CB-0205-09C3-19DB-44772D3ADCD1</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="cultura" id="72DD6615-2813-995B-464C-29280A8122AF">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>03990FC3-A3F4-EBBA-F271-09D0AE8CA2B0</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="serie" id="8D8F2EFB-652E-E2DE-CCFE-6A0117841254">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>AB3773B8-032E-61B3-24C5-83A1031995EE</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="serie_2" id="EA136E10-C0D6-9595-6310-2F908FF7312E">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>6713F116-0BF9-988C-D0AF-5BC655392342</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E9F15F32-EA30-4E2B-80C1-765B89739BA5" name="ORIGEN PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>F0F035B7-8AA6-C6FE-C00B-E9AD82450714</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="AEA6B786-F25A-C953-4274-9222563C451C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

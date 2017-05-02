@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="DE59D25D-2507-C72D-E53D-8A54DAD692A1" name="ADQUISICION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="72A6B027-7713-A5DF-18A4-2C5747D3FACE" name="ARQUEOLOGIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="47452C60-B1B9-98A4-94D2-A115918AAAF9" name="ARTISTA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2AC797C2-213D-4A43-3173-465E471280B0" name="BELLA_ARTE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="74C54395-7D8B-EDEF-5E98-AE76B8284CCF" name="CONSERVACION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0FF06A85-23FE-C175-6011-8BD797E96592" name="DESCRIPCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B66559B7-9033-B234-A841-E5563FE45F93" name="ETNOLOGIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="56A85B65-1C17-4CAF-7F03-FE9D0A153C1C" name="FECHA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2D4A1D6B-2F25-16A8-2DF6-33A0657AB758" name="MATERIAL" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B4D82E6B-F640-310E-CDEB-4D907087A0B9" name="OBJETO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="43971C5E-7E64-B215-E0CD-AA63AA41DD86" name="ORIGEN" seqName="seg_0"/>
+   <object objectType="Entity" objectID="737BF2FF-6B60-3A94-3876-97423603C6C6" name="TECNICA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="73AE5B6C-9EF2-1FDE-198F-F53D6AB23423" name="COMPOSICION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F4180F27-47F7-1EBF-9D31-4B1BFF35A41A" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7D35C225-72F9-A58D-CD7E-3ADDB265843C" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CE55C66D-754B-6C6D-91E7-F1893B8D9D40" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FF643343-A26A-77CB-8C33-960F97B4119D" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EF69DB74-CC63-C695-382A-D8E7D606C748" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CF8963A3-8720-52F7-479B-6D3EF7925F20" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3828CEBE-307B-394E-5C74-1335E23B9411" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="29945E19-BA79-A8F7-1CD9-917D2BA7B684" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7A31D40C-DFCE-32A1-D914-BCC5D657927C" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="90144B64-18CF-D6BE-D4AC-1C7816FA96C7" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

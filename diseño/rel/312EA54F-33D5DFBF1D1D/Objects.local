@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="76CE7EBC-343E-587B-F89A-6BD8015AB2BC" name="ADQUISICION" seqName="seg_0"/>
+   <object objectType="Table" objectID="178CB555-25D6-FDFE-E403-256F7FEA64AB" name="ARQUEOLOGIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BC2D23D-BE94-7B7A-289D-865C48AE85E7" name="ARTISTA" seqName="seg_0"/>
+   <object objectType="Table" objectID="4C99A371-4300-C4EF-9FE2-E572BC18A1B0" name="BELLA_ARTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="1F2AF68E-D657-FBDC-D753-7EB2BC36187F" name="COMPOSICION" seqName="seg_0"/>
+   <object objectType="Table" objectID="18AFAA77-CC55-1B95-5E58-EE303F3AFCEC" name="CONSERVACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB84CF59-5CD6-03CE-F1C1-62748E14CDF0" name="DESCRIPCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="A8E1550B-8AD0-1E0D-F6B8-B1D493D05D01" name="ETNOLOGIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="8CADA389-227A-E184-D4ED-E9A490552044" name="FECHA" seqName="seg_0"/>
+   <object objectType="Table" objectID="173C6FE1-EF5F-36AE-13DA-82EB019B48C0" name="MATERIAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="A494D05B-FA9D-085C-D963-C24BE8D194B2" name="OBJETO" seqName="seg_0"/>
+   <object objectType="Table" objectID="45C4AD19-0758-DD0C-F2CC-28098CE2978D" name="ORIGEN" seqName="seg_0"/>
+   <object objectType="Table" objectID="07713BA9-31F2-5930-2774-05E0591CC8DD" name="TECNICA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="408CE63B-89A4-33A9-B524-E72213FFC709" name="FK_ASS_1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="524B773A-EB65-9FA4-193E-52D17E6FECBC" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D452B43B-C11A-A991-13CE-D9028A7F7296" name="Relation_10" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0BD0D44B-F73D-CC22-4E45-C11F4ED50DA7" name="Relation_11" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FFF5C3F2-E854-9870-A613-F0D53B02FC06" name="Relation_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F5670340-7815-ACA5-467E-D4BBA51CC8ED" name="Relation_3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B59B2F56-09FD-CEAB-0AA2-7DE058C3ECDB" name="Relation_4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9EA3197F-453B-947F-8715-D0EC207166E4" name="Relation_5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="36F95B95-F15A-F64B-C51B-FDFED207E159" name="Relation_6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="11A61BA3-8C65-922D-44A3-1A2436D75CBB" name="Relation_7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2182AD3D-5D97-35E8-B420-DC487E74C444" name="Relation_8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6257483A-5572-2C8A-4CA1-7594BA1C870F" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
