@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="0FF06A85-23FE-C175-6011-8BD797E96592" directorySegmentName="seg_0" name="DESCRIPCION">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:33:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<engineerTo>
+<item key="312EA54F-DCAF-2CDB-5B44-33D5DFBF1D1D" value="true"/>
+</engineerTo>
+<pkName>DESCRIPCION PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Atributo</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="idDes" id="504F2DEE-3885-A7F9-39B4-69314C10E982">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:33:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<engineerTo>
+<item key="312EA54F-DCAF-2CDB-5B44-33D5DFBF1D1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="numEnt" id="B8D2468D-2DD9-2DB4-59CC-57337B86F9D1">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:33:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<engineerTo>
+<item key="312EA54F-DCAF-2CDB-5B44-33D5DFBF1D1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="numLib" id="5A2D737A-FEBD-1639-37EB-4981C88C7BA8">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:35:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<engineerTo>
+<item key="312EA54F-DCAF-2CDB-5B44-33D5DFBF1D1D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="3E3B6868-4222-7E49-7AFF-1FCF5ACA3E44" name="DESCRIPCION PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:33:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<engineerTo>
+<item key="312EA54F-DCAF-2CDB-5B44-33D5DFBF1D1D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>504F2DEE-3885-A7F9-39B4-69314C10E982</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

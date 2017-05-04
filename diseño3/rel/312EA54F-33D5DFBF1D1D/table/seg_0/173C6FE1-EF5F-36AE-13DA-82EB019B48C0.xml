@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="173C6FE1-EF5F-36AE-13DA-82EB019B48C0" directorySegmentName="seg_0" name="MATERIAL">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:23:36 UTC</createdTime>
+<generatorID>2D4A1D6B-2F25-16A8-2DF6-33A0657AB758</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pkName>MATERIAL PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idMat" id="65563A70-D8CF-279B-1D0C-102789EC8FE0">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:23:36 UTC</createdTime>
+<generatorID>B08A378E-1EE8-4493-8F8D-52446C0A7519</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="nomMat" id="AAFF71A2-ED9B-6DD7-32B2-E86119A26058">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:23:36 UTC</createdTime>
+<generatorID>0643BFAC-056A-3E37-853D-E0CCAD33B7FD</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3282CF86-275D-A4C2-5241-2EA3A750414E" name="MATERIAL PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:23:36 UTC</createdTime>
+<generatorID>A79AE049-E171-5FE3-3A36-DFF5B451889F</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="65563A70-D8CF-279B-1D0C-102789EC8FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

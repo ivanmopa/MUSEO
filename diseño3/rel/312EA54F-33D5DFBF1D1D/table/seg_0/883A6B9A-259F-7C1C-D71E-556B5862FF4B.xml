@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="883A6B9A-259F-7C1C-D71E-556B5862FF4B" directorySegmentName="seg_0" name="DOCUMENTO">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>0FC0E96B-A0C8-403F-711F-F0744B372A97</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pkName>DOCUMENTO PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idDoc" id="B66179AB-3013-A1C7-D08C-484F02F19639">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>48742FB3-CDFA-D15E-FE17-CEA0979FFD50</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="conclusiones" id="66C11550-B0E0-D680-D626-2B6534751C51">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>B0733C8B-0D0B-C014-4CF3-FAF1099C1584</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="recomendaciones" id="F34E7FC1-4505-EF29-4752-5CADB3AE0D62">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>11715417-0FC6-39A0-E95A-BA677B37387D</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idInt" id="861492F7-B75F-4D62-0573-5FD6073C70BE">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>ACFFB051-8E04-6148-07BD-7B86D11652F0</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CD98BCD5-8246-5100-17AA-383201A43423</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55F4B8C5-118E-394C-CEA2-2E7D0E8901C8" referredColumn="CD98BCD5-8246-5100-17AA-383201A43423"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idEst" id="EB75B5F0-73A1-D4B1-7017-A10540DB6227">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>6A844A8A-E499-5188-3E60-A1E4AD60F998</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>6DD7C102-4DD6-16D1-B813-7A1831392AF3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="060F1ABE-4B2B-BFE4-6447-A5CA6FD1A71E" referredColumn="6DD7C102-4DD6-16D1-B813-7A1831392AF3"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idInfo" id="7CAB999F-10A6-58E4-7617-28CCBB62DE62">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>FA3C74BF-7E68-AEEA-9707-B71331763651</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1044E5D3-A72A-DBB2-4641-96BDD4FBA136</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7BBAE48-1DBD-421E-298A-29E440509452" referredColumn="1044E5D3-A72A-DBB2-4641-96BDD4FBA136"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E96C686B-F626-7BC3-AE23-FB8BB7434821" name="DOCUMENTO PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>A553BC74-0187-D1E3-4182-D11AC66F9E4D</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B66179AB-3013-A1C7-D08C-484F02F19639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7CA34210-F3BF-BEFE-345A-058A8B733CDB" name="DOCUMENTO__IDX">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="861492F7-B75F-4D62-0573-5FD6073C70BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="13510BEA-EEFA-C31E-8F67-FE8ADFF7B141" name="DOCUMENTO__IDXv1">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="EB75B5F0-73A1-D4B1-7017-A10540DB6227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A5187D83-8F8B-62FD-0FDB-4F96D1E9D4CB" name="DOCUMENTO__IDXv2">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="7CAB999F-10A6-58E4-7617-28CCBB62DE62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="DD592919-FB11-BFF1-568D-6B9CADFBA8A6" name="Relation_100">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:14 UTC</createdTime>
+<generatorID>34E97AA2-F584-477F-E52C-91294EDAA578</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="861492F7-B75F-4D62-0573-5FD6073C70BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="31670E0D-F27B-02FC-05CF-23419A104670" name="Relation_200">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:14 UTC</createdTime>
+<generatorID>79F9B98B-C4A7-C439-5880-1AB2B47BC79E</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="EB75B5F0-73A1-D4B1-7017-A10540DB6227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="95FF7B5E-1C24-2497-C9EC-85EDEBC84CD7" name="Relation_300">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:14 UTC</createdTime>
+<generatorID>E7977236-A94C-4948-CFD4-EAE0A4DC9587</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="7CAB999F-10A6-58E4-7617-28CCBB62DE62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

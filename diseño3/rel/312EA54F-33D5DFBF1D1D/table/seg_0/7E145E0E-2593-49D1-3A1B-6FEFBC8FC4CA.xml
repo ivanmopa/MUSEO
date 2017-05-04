@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="7E145E0E-2593-49D1-3A1B-6FEFBC8FC4CA" directorySegmentName="seg_0" name="MOVIMIENTO">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>A1A9FB6B-96C2-76B3-F71E-4B6E5E672695</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pkName>MOVIMIENTO PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idMov" id="8BECE824-E277-C7B4-AD07-4B9142623526">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>A0B7ECDC-C9E0-7694-6BC4-BC705BEDAA6B</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="lugExp" id="3A6B6AAC-C56D-7390-F8DF-69A9D8919D3E">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>971F3E64-FCE0-F4DD-073F-A4AB4733F24E</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="fExp" id="9CFB16BB-DABE-35FB-0305-E43A9A0AA045">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>6440478C-7104-70C5-C950-995F24B892EC</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7AEDD5FD-4454-F959-ABD4-EA925F23A762" name="MOVIMIENTO PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-04 18:55:13 UTC</createdTime>
+<generatorID>AD5B827B-E8C8-632E-8174-0DD330EE1299</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8BECE824-E277-C7B4-AD07-4B9142623526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

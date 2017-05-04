@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diseño3" id="A8DAD608-68C3-74DD-EBEC-D50F4429F43B" version="3.5">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 20:55:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A8DAD608-68C3-74DD-EBEC-D50F4429F43B</designId>
+</OSDM_Design>

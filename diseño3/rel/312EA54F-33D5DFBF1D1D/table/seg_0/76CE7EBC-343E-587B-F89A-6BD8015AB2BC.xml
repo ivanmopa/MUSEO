@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="76CE7EBC-343E-587B-F89A-6BD8015AB2BC" directorySegmentName="seg_0" name="ADQUISICION">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>DE59D25D-2507-C72D-E53D-8A54DAD692A1</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pkName>ADQUISICION PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="idAdq" id="4921CB38-3757-16B9-719B-547FFFA522B9">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>A704DA58-2F99-4D9B-AB2F-FA4001060701</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="metodo" id="35FAC8BB-16CB-F343-FDB3-021312804DC1">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>D912BA21-F3A0-8C82-42AE-45DB6FE50DBD</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="391B84E7-76ED-3BE5-0B75-CEE9D4B26DAB" name="ADQUISICION PK">
+<createdBy>conner</createdBy>
+<createdTime>2017-05-02 21:37:32 UTC</createdTime>
+<generatorID>42B8F898-DE89-A6AD-DB5F-C9C9B7FA4B73</generatorID>
+<ownerDesignName>diseño3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4921CB38-3757-16B9-719B-547FFFA522B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
